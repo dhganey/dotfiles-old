@@ -1,6 +1,8 @@
+[credential]
+	helper = osxkeychain
 [user]
 	name = David Ganey
-	email = dhganey@gmail.com
+	email = david.ganey@redfin.com
 [alias]
 	co = checkout
 	st = status
@@ -15,5 +17,18 @@
 	cohack = checkout hackathon_summer_2017_o
 	git = !exec git
 	stache = stash
+[merge]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustExitCode = true
+[diff]
+	tool = bc3
+[difftool "diffmerge"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+[core]
+	edtor = subl -n -w
 [push]
 	default = simple
+[mergetool]
+	keepBackup = false
