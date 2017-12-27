@@ -1,0 +1,127 @@
+{
+  "BTTPresetName" : "Default",
+  "BTTPresetUUID" : "ADF3B75C-774D-4E9C-8F26-64C43C71CE41",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 12,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 45,
+          "BTTPredefinedActionName" : "Show Desktop",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 45,
+          "BTTTriggerTypeDescription" : "3 Finger Double-Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 115,
+          "BTTPredefinedActionName" : "Open Launchpad",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTriggerType" : 104,
+          "BTTTriggerTypeDescription" : "3 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 20,
+          "BTTTriggerTypeDescription" : "2 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 13,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 172,
+          "BTTPredefinedActionName" : "Run Apple Script (enter directly as text)",
+          "BTTInlineAppleScript" : "tell application \"System Events\"\r\tstart current screen saver\rend tell",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 10,
+          "BTTPredefinedActionName" : "Open Finder",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 18,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 1001,
+          "BTTTriggerTypeDescription" : "Rightclick (needs modifier key)",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 262144,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
