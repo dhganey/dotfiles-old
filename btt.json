@@ -1,0 +1,92 @@
+{
+  "BTTPresetName" : "Default",
+  "BTTPresetUUID" : "53AB63EF-3458-42DF-82D0-2D1A0588F4D0",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 13,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 10,
+          "BTTPredefinedActionName" : "Open Finder",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 18,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 20,
+          "BTTTriggerTypeDescription" : "2 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 172,
+          "BTTPredefinedActionName" : "Run Apple Script (enter directly as text)",
+          "BTTInlineAppleScript" : "tell application \"System Events\"\r\tstart current screen saver\rend tell",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 12,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 45,
+          "BTTPredefinedActionName" : "Show Desktop",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 45,
+          "BTTTriggerTypeDescription" : "3 Finger Double-Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 115,
+          "BTTPredefinedActionName" : "Open Launchpad",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTTriggers" : [
+
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
